@@ -3,9 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Bulup Cafe</title>
 </head>
 <body>
-    
+    <div class="container">
+        <nav class="navbar">
+           <a href=""><img src="assets/logo-trans.png" alt="" class="navbar-logo" id="#"></a>
+            <div class="navbar-right">
+                <div class="navbar-menu">
+                    <a href="#">Home</a>
+                    <a href="#package">Our Package</a>
+                    <a href="#callus">Call Us</a>
+                </div>
+            </div>
+        </nav>
+        
+        <section class="content" id="#">
+            <header class="content-header">
+                <h1>Welcome to Bulup Cafe</h1>
+                <p>Where every cup tells a story and every bite is a journey into culinary delight</p>
+            </header>
+            <div class="content-middle">
+                <div class="slide-show">
+                    <img class="img-slide fade" src="assets/image1.jpg" alt="">
+                    <img class="img-slide fade" src="assets/image2.jpg" alt="">
+                    <img class="img-slide fade" src="assets/image3.jpg" alt="">
+                    <img class="img-slide fade" src="assets/image4.jpg" alt="">
+                </div>
+                <div class="form-contact">
+                    <form action="" id="contactForm">
+                        <h1>Contact Us</h1>
+                        <br>
+                        <p>Book your reservation down below!!!</p>
+                        <br>
+                        <label for="name">Your Name:</label>
+                        <input type="text" name="name" id="name" required>
+                        <p id="name-error" style="display: none; color: red">
+                           Please enter your name</p>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                        <p id="email-error" style="display: none; color: red">
+                            Wrong email format</p>
+                        <label for="options">Location:</label>
+                        <select name="options" id="options">
+                            <option value="" selected disabled >Choose One</option>
+                            <option value="1">Gading Serpong</option>
+                            <option value="2">Senopati</option>
+                            <option value="3">Braga</option>
+                            <option value="4">Malang</option>
+                            <option value="5">Yogyakarta</option>
+                        </select>
+                        <p id="options-error" style="display: none; color: red">
+                        Select location</p>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <div id="package" class="offer">
+            <h1>OUR PACKAGE</h1>
+        </div>
+        <div class="package">
+            <div class="package-option">
+                <img class="img-package" src="assets/single.jpeg" alt="">
+                <h1>Cafe Delight Package</h1>
+                <p>Introducing our Café Combo: Indulge in the perfect pairing of our signature coffee and a savory sandwich or a sweet pastry. Whether you're craving a quick bite or a leisurely treat, our combo offers a delicious blend of flavors to satisfy your cravings.</p>
+            </div>
+            <div class="package-option">
+                <img class="img-package" src="assets/couple.jpeg" alt="">
+                <h1>Couple Package</h1>
+                <p>Introducing our Café Couple's Combo: Enjoy our signature coffee plus two treats of your choice. Perfect for sharing a cozy moment together.</p>
+            </div>
+            <div class="package-option">
+                <img class="img-package" src="assets/family.jpeg" alt="">
+                <h1>Family Package</h1>
+                <p>Experience our Family Café Combo, including four cups of freshly brewed signature coffee, four flaky croissants, four assorted muffins, two classic ham and cheese sandwiches, two turkey and avocado wraps, one decadent chocolate cake, and one fruit tart—a feast for sharing and enjoying together.</p>
+            </div>
+        </div>
+        <hr class="border">
+        <div class="package">
+            <div class="package-option">
+                <img class="img-package" src="assets/romantic.jpeg" alt="">
+                <h1>Romantic Dinner</h1>
+                <p>Experience our Romantic Dinner Combo, featuring two glasses of house wine, two specialty cocktails, a shared cheese and charcuterie platter, two filet mignon steaks with mashed potatoes and vegetables, and a chocolate fondue for two, ensuring an intimate and unforgettable dining experience.</p>
+            </div>
+            <div class="package-option">
+                <img class="img-package" src="assets/candlelight.jpeg" alt="">
+                <h1>Cande Light Dinner</h1>
+                <p>Step into romance with our Candlelight Dinner Combo: Enjoy two glasses of fine wine, share a platter of artisanal cheeses and charcuterie, savor two perfectly cooked filet mignon steaks with sides, and end with a decadent chocolate fondue for two—a truly memorable dining experience awaits.</p>
+            </div>
+            <div class="package-option">
+                <img class="img-package" src="assets/togo.jpeg" alt="">
+                <h1>Bulup To Go</h1>
+                <p>Introducing our Bulup Café To-Go Combo: Dive into a convenient and delicious experience with a curated selection of our finest offerings, including a choice of one signature beverage, such as our specialty coffee or refreshing iced tea, accompanied by a freshly baked pastry or sandwich of your choice. It's the perfect grab-and-go option, ensuring you can enjoy the flavors of Bulup Café wherever your day takes you.</p>
+            </div>
+        </div>
+        <hr class="border1">
+
+        <section class="closing" id="callus">
+            <div class="closing-argument">
+                <h1>Taste Elevated: Savor Every Moment at Our Café!</h1>
+                <p>Thank you for choosing to spend your time with us at Bulup Cafe. At our cafe, we believe in offering more than just delicious food and drinks; we aim to create unforgettable memories.</p>
+            </div>
+            <button id="call-us">CALL US</button>
+            
+        </section>
+        <hr class="border1">
+        
+        <footer class="footer">
+            <a href=""><img src="assets/logo-trans.png" alt="" class="navbar-logo" id="#"></a>
+            <div class="term">
+                <p>Terms of Service</p>
+                <p>Privacy Policy</p>
+            </div>
+            <p>&copy; 2024 Amos Augusto Silangit.</p>
+        </footer>
+    </div>
+<script src="js/script.js"></script>
 </body>
+
 </html>
